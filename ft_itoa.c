@@ -16,7 +16,9 @@ static size_t	num_len(int n)
 {
 	size_t	len;
 
-	len = (n <= 0) ? 1 : 0;
+	len = 0;
+	if (n <=0)
+		len = 1;
 	while (n != 0)
 	{
 		len++;
@@ -34,25 +36,17 @@ char	*ft_itoa(int n)
 	if (n == -2147483648)
 		return (ft_strdup("-2147483648"));
 	len = num_len(n);
-	if (n < 0)
-	{
-		nbr = -n;
-		len++;
-	}
-	else
-	{
-		nbr = n;
-	}
 	str = (char *)malloc((len + 1) * sizeof(char));
 	if (!str)
 		return (NULL);
 	str[len] = '\0';
-	while (len--)
+	nbr = (n < 0) ? -n : n;
+	if (n < 0)
+		str[0] = '-';
+	while (len-- && str[len] != '-')
 	{
 		str[len] = nbr % 10 + '0';
 		nbr /= 10;
 	}
-	if (n < 0)
-		str[0] = '-';
 	return (str);
 }
