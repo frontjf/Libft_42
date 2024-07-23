@@ -7,46 +7,54 @@
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:37:57 by jirdfer2          #+#    #+#             */
 /*   Updated: 2024/07/19 15:34:34 by jordfer2         ###   ########.fr       */
-/*                                                                            */
+/*                                                                           */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t	num_len(int n)
+static int	num_len(int n)
 {
-	size_t	len;
+	int	len;
 
 	len = 0;
-	if (n <=0)
-		len = 1;
-	while (n != 0)
-	{
+	if (n <= 0)
 		len++;
+	while (n)
+	{
 		n /= 10;
+		len++;
 	}
 	return (len);
 }
 
+static void	fill_str(char *str, long num, int len)
+{
+	str[len] = '\0';
+	if (num == 0)
+		str[0] = '0';
+	if (num < 0)
+	{
+		str[0] = '-';
+		num = -num;
+	}
+	while (num)
+	{
+		str[--len] = num % 10 + '0';
+		num /= 10;
+	}
+}
+
 char	*ft_itoa(int n)
 {
-	char		*str;
-	size_t		len;
-	unsigned int	nbr;
+	char	*str;
+	int	len;
+	long	num;
 
-	if (n == -2147483648)
-		return (ft_strdup("-2147483648"));
-	len = num_len(n);
-	str = (char *)malloc((len + 1) * sizeof(char));
+	num = n;
+	len = num_len(num);
+	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (!str)
 		return (NULL);
-	str[len] = '\0';
-	nbr = (n < 0) ? -n : n;
-	if (n < 0)
-		str[0] = '-';
-	while (len-- && str[len] != '-')
-	{
-		str[len] = nbr % 10 + '0';
-		nbr /= 10;
-	}
+	fill_str(str, num, len);
 	return (str);
 }
