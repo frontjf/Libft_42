@@ -2,221 +2,221 @@
 
 ---
 
-# ft_isalpha
+## ft_isalpha
 
 La función `isalpha` verifica si un carácter es una letra del alfabeto (tanto mayúsculas como minúsculas).
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `isalpha` para validar que una entrada de usuario contiene solo letras, por ejemplo, en un campo de nombre en un formulario.
 
 ---
 
-# ft_ isdigit
+## ft_ isdigit
 
 La función `isdigit` verifica si un carácter es un dígito decimal (0-9).
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para validar que una entrada de usuario es un número, como en el caso de un campo de número de teléfono.
 
 ---
 
-# ft_isalnum
+## ft_isalnum
 
 La función `isalnum` verifica si un carácter es alfanumérico, es decir, una letra o un dígito.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `isalnum` para asegurar que una contraseña contiene solo caracteres alfanuméricos.
 
 ---
 
-# ft_isascii
+## ft_isascii
 
 La función `isascii` verifica si un carácter pertenece al conjunto de caracteres ASCII.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `isascii` para validar que una entrada de texto contiene solo caracteres ASCII, garantizando compatibilidad básica.
 
 ---
 
-# ft_isprint
+## ft_isprint
 
 La función `isprint` verifica si un carácter es imprimible, incluyendo espacio.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para filtrar caracteres no imprimibles de una entrada de texto antes de mostrarla en pantalla.
 
 ---
 
-# ft_strlen
+## ft_strlen
 
 La función `strlen` calcula la longitud de una cadena de caracteres.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `strlen` para determinar cuántos caracteres ha ingresado un usuario en un campo de texto y validar la longitud mínima o máxima permitida.
 
 ---
 
-# ft_memset
+## ft_memset
 
 La función `memset` llena un bloque de memoria con un valor específico.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `memset` para inicializar un array a un valor determinado antes de su uso.
 
 ---
 
-# ft_bzero
+## ft_bzero
 
 La función `bzero` pone a cero un bloque de memoria.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para inicializar buffers a cero antes de su uso para evitar residuos de datos anteriores.
 
 ---
 
-# ft_memcpy
+## ft_memcpy
 
 La función `memcpy` copia un bloque de memoria de una ubicación a otra.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `memcpy` para duplicar datos en memoria, como copiar el contenido de un archivo a un buffer.
 
 ---
 
-# ft_memmove
+## ft_memmove
 
 La función `memmove` copia un bloque de memoria de una ubicación a otra, manejando correctamente solapamientos.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para mover datos dentro del mismo array sin corromperlos, como al implementar un algoritmo de compresión de datos.
 
 ---
 
-# ft_strlcpy
+## ft_strlcpy
 
 La función `strlcpy` copia una cadena a otra asegurando la terminación nula y evitando desbordamientos.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `strlcpy` para copiar con seguridad una cadena a un buffer asegurándote de no sobrepasar el tamaño del buffer.
 
 ---
 
-# ft_strlcat
+## ft_strlcat
 
 La función `strlcat` concatena dos cadenas asegurando la terminación nula y evitando desbordamientos.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para concatenar con seguridad dos cadenas sin sobrepasar el tamaño del buffer de destino.
 
 ---
 
-# ft_toupper
+## ft_toupper
 
 La función `toupper` convierte una letra minúscula a mayúscula.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `toupper` para normalizar una entrada de texto convirtiendo todas las letras a mayúsculas.
 
 ---
 
-# ft_tolower
+## ft_tolower
 
 La función `tolower` convierte una letra mayúscula a minúscula.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para normalizar una entrada de texto convirtiendo todas las letras a minúsculas.
 
 ---
 
-# ft_strchr
+## ft_strchr
 
 La función `strchr` busca la primera aparición de un carácter en una cadena.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `strchr` para localizar un carácter específico en una cadena, como buscar un delimitador en una cadena de texto.
 
 ---
 
-# ft_strrchr
+## ft_strrchr
 
 La función `strrchr` busca la última aparición de un carácter en una cadena.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para encontrar la última aparición de un delimitador en una ruta de archivo para extraer el nombre del archivo.
 
 ---
 
-# ft_strncmp
+## ft_strncmp
 
 La función `strncmp` compara dos cadenas hasta un número determinado de caracteres.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `strncmp` para comparar los primeros n caracteres de dos cadenas, útil en la ordenación de cadenas.
 
 ---
 
-# ft_memchr
+## ft_memchr
 
 La función `memchr` busca la primera aparición de un carácter en un bloque de memoria.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para encontrar un valor específico en un array de bytes, como buscar un byte de terminación en un protocolo de red.
 
 ---
 
-# ft_memcmp
+## ft_memcmp
 
 La función `memcmp` compara dos bloques de memoria.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `memcmp` para verificar si dos bloques de datos son iguales, útil en la validación de datos.
 
 ---
 
-# ft_strnstr
+## ft_strnstr
 
 La función `strnstr` busca la primera aparición de una subcadena en una cadena, hasta un número determinado de caracteres.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para buscar una subcadena dentro de una cadena con un límite de búsqueda, como en la búsqueda parcial de palabras clave.
 
 ---
 
-# ft_calloc
+## ft_calloc
 
 La función `calloc` asigna memoria para un array de elementos e inicializa todos sus bytes a cero.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Puedes usar `calloc` para asignar memoria para un array de estructuras y asegurarte de que todos los campos están inicializados a cero.
 
 ---
 
-# ft_strdup
+## ft_strdup
 
 La función `strdup` duplica una cadena, asignando la memoria necesaria.
 
-## Ejemplo Práctico
+### Ejemplo Práctico
 
 Útil para crear una copia de una cadena dinámica que puedes modificar sin alterar la original.
 
@@ -226,13 +226,13 @@ La función `strdup` duplica una cadena, asignando la memoria necesaria.
 
 `substr` crea una nueva cadena que es una subcadena de la cadena dada, comenzando en un índice especificado y con una longitud determinada. Si el índice de inicio es mayor que la longitud de la cadena original, devuelve una cadena vacía.
 
-# Ejemplo practico
+### Ejemplo practico
 
 Si tienes un texto largo y necesitas solo una parte específica, ft_substr te permite extraer esa parte de manera eficiente. Por ejemplo, puedes extraer una vista previa de un artículo a partir de su contenido completo.
 
 ---
 
-# ft_strjoin
+## ft_strjoin
 
 `strjoin` concatena dos cadenas de caracteres (`s1` y `s2`) en una nueva cadena. La nueva cadena contiene primero todos los caracteres de `s1`, seguidos de todos los caracteres de `s2`. La función maneja la memoria necesaria para la nueva cadena y se asegura de añadir un carácter nulo al final para marcar el final de la cadena.
 
@@ -242,7 +242,7 @@ Si necesitas combinar dos partes de un mensaje en una sola cadena, como unir un 
 
 ---
 
-# ft_strtrim
+## ft_strtrim
 
 `strtrim` elimina los caracteres específicos, presentes en la cadena `set`, desde el principio y el final de la cadena `s1`. La función recorta `s1` para que solo queden los caracteres que no están en `set`, devolviendo una nueva cadena que contiene solo esos caracteres internos.
 
@@ -254,7 +254,7 @@ Si aplicas ft_strtrim a la cadena "***camión***" con el conjunto de caracteres 
 
 ---
 
-# ft_split
+## ft_split
 
 `split` divide una cadena de caracteres `s` en subcadenas basadas en un delimitador `c`. La función devuelve un array de cadenas donde cada elemento es una subcadena de `s` que no contiene el delimitador `c`. La última posición del array es `NULL`, indicando el final del conjunto de subcadenas.
 
