@@ -2,19 +2,19 @@
 
 ---
 
-# FT_ISALPHA
+# ft_isalpha
 
-La función `ft_isalpha` verifica si un carácter es una letra del alfabeto (tanto mayúsculas como minúsculas).
+La función `isalpha` verifica si un carácter es una letra del alfabeto (tanto mayúsculas como minúsculas).
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_isalpha` para validar que una entrada de usuario contiene solo letras, por ejemplo, en un campo de nombre en un formulario.
+Puedes usar `isalpha` para validar que una entrada de usuario contiene solo letras, por ejemplo, en un campo de nombre en un formulario.
 
 ---
 
-# FT_ISDIGIT
+# ft_ isdigit
 
-La función `ft_isdigit` verifica si un carácter es un dígito decimal (0-9).
+La función `isdigit` verifica si un carácter es un dígito decimal (0-9).
 
 ## Ejemplo Práctico
 
@@ -22,29 +22,29 @@ La función `ft_isdigit` verifica si un carácter es un dígito decimal (0-9).
 
 ---
 
-# FT_ISALNUM
+# ft_isalnum
 
-La función `ft_isalnum` verifica si un carácter es alfanumérico, es decir, una letra o un dígito.
-
-## Ejemplo Práctico
-
-Puedes usar `ft_isalnum` para asegurar que una contraseña contiene solo caracteres alfanuméricos.
-
----
-
-# FT_ISASCII
-
-La función `ft_isascii` verifica si un carácter pertenece al conjunto de caracteres ASCII.
+La función `isalnum` verifica si un carácter es alfanumérico, es decir, una letra o un dígito.
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_isascii` para validar que una entrada de texto contiene solo caracteres ASCII, garantizando compatibilidad básica.
+Puedes usar `isalnum` para asegurar que una contraseña contiene solo caracteres alfanuméricos.
 
 ---
 
-# FT_ISPRINT
+# ft_isascii
 
-La función `ft_isprint` verifica si un carácter es imprimible, incluyendo espacio.
+La función `isascii` verifica si un carácter pertenece al conjunto de caracteres ASCII.
+
+## Ejemplo Práctico
+
+Puedes usar `isascii` para validar que una entrada de texto contiene solo caracteres ASCII, garantizando compatibilidad básica.
+
+---
+
+# ft_isprint
+
+La función `isprint` verifica si un carácter es imprimible, incluyendo espacio.
 
 ## Ejemplo Práctico
 
@@ -52,29 +52,29 @@ La función `ft_isprint` verifica si un carácter es imprimible, incluyendo espa
 
 ---
 
-# FT_STRLEN
+# ft_strlen
 
-La función `ft_strlen` calcula la longitud de una cadena de caracteres.
-
-## Ejemplo Práctico
-
-Puedes usar `ft_strlen` para determinar cuántos caracteres ha ingresado un usuario en un campo de texto y validar la longitud mínima o máxima permitida.
-
----
-
-# FT_MEMSET
-
-La función `ft_memset` llena un bloque de memoria con un valor específico.
+La función `strlen` calcula la longitud de una cadena de caracteres.
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_memset` para inicializar un array a un valor determinado antes de su uso.
+Puedes usar `strlen` para determinar cuántos caracteres ha ingresado un usuario en un campo de texto y validar la longitud mínima o máxima permitida.
 
 ---
 
-# FT_BZERO
+# ft_memset
 
-La función `ft_bzero` pone a cero un bloque de memoria.
+La función `memset` llena un bloque de memoria con un valor específico.
+
+## Ejemplo Práctico
+
+Puedes usar `memset` para inicializar un array a un valor determinado antes de su uso.
+
+---
+
+# ft_bzero
+
+La función `bzero` pone a cero un bloque de memoria.
 
 ## Ejemplo Práctico
 
@@ -82,19 +82,19 @@ La función `ft_bzero` pone a cero un bloque de memoria.
 
 ---
 
-# FT_MEMCPY
+# ft_memcpy
 
-La función `ft_memcpy` copia un bloque de memoria de una ubicación a otra.
+La función `memcpy` copia un bloque de memoria de una ubicación a otra.
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_memcpy` para duplicar datos en memoria, como copiar el contenido de un archivo a un buffer.
+Puedes usar `memcpy` para duplicar datos en memoria, como copiar el contenido de un archivo a un buffer.
 
 ---
 
-# FT_MEMMOVE
+# ft_memmove
 
-La función `ft_memmove` copia un bloque de memoria de una ubicación a otra, manejando correctamente solapamientos.
+La función `memmove` copia un bloque de memoria de una ubicación a otra, manejando correctamente solapamientos.
 
 ## Ejemplo Práctico
 
@@ -102,19 +102,19 @@ La función `ft_memmove` copia un bloque de memoria de una ubicación a otra, ma
 
 ---
 
-# FT_STRLCPY
+# ft_strlcpy
 
-La función `ft_strlcpy` copia una cadena a otra asegurando la terminación nula y evitando desbordamientos.
+La función `strlcpy` copia una cadena a otra asegurando la terminación nula y evitando desbordamientos.
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_strlcpy` para copiar con seguridad una cadena a un buffer asegurándote de no sobrepasar el tamaño del buffer.
+Puedes usar `strlcpy` para copiar con seguridad una cadena a un buffer asegurándote de no sobrepasar el tamaño del buffer.
 
 ---
 
-# FT_STRLCAT
+# ft_strlcat
 
-La función `ft_strlcat` concatena dos cadenas asegurando la terminación nula y evitando desbordamientos.
+La función `strlcat` concatena dos cadenas asegurando la terminación nula y evitando desbordamientos.
 
 ## Ejemplo Práctico
 
@@ -122,19 +122,19 @@ La función `ft_strlcat` concatena dos cadenas asegurando la terminación nula y
 
 ---
 
-# FT_TOUPPER
+# ft_toupper
 
-La función `ft_toupper` convierte una letra minúscula a mayúscula.
+La función `toupper` convierte una letra minúscula a mayúscula.
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_toupper` para normalizar una entrada de texto convirtiendo todas las letras a mayúsculas.
+Puedes usar `toupper` para normalizar una entrada de texto convirtiendo todas las letras a mayúsculas.
 
 ---
 
-# FT_TOLOWER
+# ft_tolower
 
-La función `ft_tolower` convierte una letra mayúscula a minúscula.
+La función `tolower` convierte una letra mayúscula a minúscula.
 
 ## Ejemplo Práctico
 
@@ -142,19 +142,19 @@ La función `ft_tolower` convierte una letra mayúscula a minúscula.
 
 ---
 
-# FT_STRCHR
+# ft_strchr
 
-La función `ft_strchr` busca la primera aparición de un carácter en una cadena.
+La función `strchr` busca la primera aparición de un carácter en una cadena.
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_strchr` para localizar un carácter específico en una cadena, como buscar un delimitador en una cadena de texto.
+Puedes usar `strchr` para localizar un carácter específico en una cadena, como buscar un delimitador en una cadena de texto.
 
 ---
 
-# FT_STRRCHR
+# ft_strrchr
 
-La función `ft_strrchr` busca la última aparición de un carácter en una cadena.
+La función `strrchr` busca la última aparición de un carácter en una cadena.
 
 ## Ejemplo Práctico
 
@@ -162,19 +162,19 @@ La función `ft_strrchr` busca la última aparición de un carácter en una cade
 
 ---
 
-# FT_STRNCMP
+# ft_strncmp
 
-La función `ft_strncmp` compara dos cadenas hasta un número determinado de caracteres.
+La función `strncmp` compara dos cadenas hasta un número determinado de caracteres.
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_strncmp` para comparar los primeros n caracteres de dos cadenas, útil en la ordenación de cadenas.
+Puedes usar `strncmp` para comparar los primeros n caracteres de dos cadenas, útil en la ordenación de cadenas.
 
 ---
 
-# FT_MEMCHR
+# ft_memchr
 
-La función `ft_memchr` busca la primera aparición de un carácter en un bloque de memoria.
+La función `memchr` busca la primera aparición de un carácter en un bloque de memoria.
 
 ## Ejemplo Práctico
 
@@ -182,19 +182,19 @@ La función `ft_memchr` busca la primera aparición de un carácter en un bloque
 
 ---
 
-# FT_MEMCMP
+# ft_memcmp
 
-La función `ft_memcmp` compara dos bloques de memoria.
+La función `memcmp` compara dos bloques de memoria.
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_memcmp` para verificar si dos bloques de datos son iguales, útil en la validación de datos.
+Puedes usar `memcmp` para verificar si dos bloques de datos son iguales, útil en la validación de datos.
 
 ---
 
-# FT_STRNSTR
+# ft_strnstr
 
-La función `ft_strnstr` busca la primera aparición de una subcadena en una cadena, hasta un número determinado de caracteres.
+La función `strnstr` busca la primera aparición de una subcadena en una cadena, hasta un número determinado de caracteres.
 
 ## Ejemplo Práctico
 
@@ -202,19 +202,19 @@ La función `ft_strnstr` busca la primera aparición de una subcadena en una cad
 
 ---
 
-# FT_CALLOC
+# ft_calloc
 
-La función `ft_calloc` asigna memoria para un array de elementos e inicializa todos sus bytes a cero.
+La función `calloc` asigna memoria para un array de elementos e inicializa todos sus bytes a cero.
 
 ## Ejemplo Práctico
 
-Puedes usar `ft_calloc` para asignar memoria para un array de estructuras y asegurarte de que todos los campos están inicializados a cero.
+Puedes usar `calloc` para asignar memoria para un array de estructuras y asegurarte de que todos los campos están inicializados a cero.
 
 ---
 
-# FT_STRDUP
+# ft_strdup
 
-La función `ft_strdup` duplica una cadena, asignando la memoria necesaria.
+La función `strdup` duplica una cadena, asignando la memoria necesaria.
 
 ## Ejemplo Práctico
 
@@ -222,9 +222,9 @@ La función `ft_strdup` duplica una cadena, asignando la memoria necesaria.
 
 ---
 
-## FT_SUBSTR
+## ft_substr
 
-ft_substr crea una nueva cadena que es una subcadena de la cadena dada, comenzando en un índice especificado y con una longitud determinada. Si el índice de inicio es mayor que la longitud de la cadena original, devuelve una cadena vacía.
+`substr` crea una nueva cadena que es una subcadena de la cadena dada, comenzando en un índice especificado y con una longitud determinada. Si el índice de inicio es mayor que la longitud de la cadena original, devuelve una cadena vacía.
 
 # Ejemplo practico
 
@@ -232,9 +232,9 @@ Si tienes un texto largo y necesitas solo una parte específica, ft_substr te pe
 
 ---
 
-# FT_STRJOIN
+# ft_strjoin
 
-`ft_strjoin` concatena dos cadenas de caracteres (`s1` y `s2`) en una nueva cadena. La nueva cadena contiene primero todos los caracteres de `s1`, seguidos de todos los caracteres de `s2`. La función maneja la memoria necesaria para la nueva cadena y se asegura de añadir un carácter nulo al final para marcar el final de la cadena.
+`strjoin` concatena dos cadenas de caracteres (`s1` y `s2`) en una nueva cadena. La nueva cadena contiene primero todos los caracteres de `s1`, seguidos de todos los caracteres de `s2`. La función maneja la memoria necesaria para la nueva cadena y se asegura de añadir un carácter nulo al final para marcar el final de la cadena.
 
 ### Ejemplo Práctico
 
@@ -242,9 +242,9 @@ Si necesitas combinar dos partes de un mensaje en una sola cadena, como unir un 
 
 ---
 
-# FT_STRTRIM
+# ft_strtrim
 
-`ft_strtrim` elimina los caracteres específicos, presentes en la cadena `set`, desde el principio y el final de la cadena `s1`. La función recorta `s1` para que solo queden los caracteres que no están en `set`, devolviendo una nueva cadena que contiene solo esos caracteres internos.
+`strtrim` elimina los caracteres específicos, presentes en la cadena `set`, desde el principio y el final de la cadena `s1`. La función recorta `s1` para que solo queden los caracteres que no están en `set`, devolviendo una nueva cadena que contiene solo esos caracteres internos.
 
 ### Ejemplo Práctico
 
@@ -254,15 +254,15 @@ Si aplicas ft_strtrim a la cadena "***camión***" con el conjunto de caracteres 
 
 ---
 
-# FT_SPLIT
+# ft_split
 
-`ft_split` divide una cadena de caracteres `s` en subcadenas basadas en un delimitador `c`. La función devuelve un array de cadenas donde cada elemento es una subcadena de `s` que no contiene el delimitador `c`. La última posición del array es `NULL`, indicando el final del conjunto de subcadenas.
+`split` divide una cadena de caracteres `s` en subcadenas basadas en un delimitador `c`. La función devuelve un array de cadenas donde cada elemento es una subcadena de `s` que no contiene el delimitador `c`. La última posición del array es `NULL`, indicando el final del conjunto de subcadenas.
 
 ### Ejemplo Práctico
 
-Este método es útil para procesar texto delimitado, como al analizar una lista de palabras separadas por comas o espacios en una entrada del usuario. Por ejemplo, podrías usar `ft_split` para dividir una línea de texto en una serie de palabras para realizar operaciones adicionales en cada palabra individualmente.
+Este método es útil para procesar texto delimitado, como al analizar una lista de palabras separadas por comas o espacios en una entrada del usuario. Por ejemplo, podrías usar `split` para dividir una línea de texto en una serie de palabras para realizar operaciones adicionales en cada palabra individualmente.
 
-Imagina que tienes la cadena de texto `"hola que tal"` y quieres separarla en palabras individuales. Al usar `ft_split` con el delimitador `' '`, obtendrás un array de cadenas que contiene `"hola"`, `"que"`, y `"tal"`. Este método es útil para procesar listas de palabras o tokens en una entrada de texto.
+Imagina que tienes la cadena de texto `"hola que tal"` y quieres separarla en palabras individuales. Al usar `split` con el delimitador `' '`, obtendrás un array de cadenas que contiene `"hola"`, `"que"`, y `"tal"`. Este método es útil para procesar listas de palabras o tokens en una entrada de texto.
 
 ---
 
