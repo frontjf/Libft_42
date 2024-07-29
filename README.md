@@ -266,4 +266,81 @@ Imagina que tienes la cadena de texto `"hola que tal"` y quieres separarla en pa
 
 ---
 
+## ft_itoa
+
+`ft_itoa` convierte un número entero n en una cadena de caracteres. La función maneja números negativos y el valor cero, devolviendo una representación en cadena del número proporcionado.
+
+### Ejemplo Práctico
+
+Esta función es útil para cualquier situación donde necesites convertir un número entero a su representación en cadena, como al mostrar puntuaciones en un juego, generar informes numéricos para interfaces de usuario, o guardar valores numéricos en archivos de texto.
+
+Imagina que tienes el número entero `12345` y necesitas mostrarlo en una interfaz de usuario como texto. Al usar `ft_itoa`, el número `12345` se convierte en la cadena "12345", lo que facilita su visualización o manipulación como texto. Esta conversión es crucial para mostrar información numérica en muchas aplicaciones, desde informes hasta interfaces gráficas.
+
+---
+
+## ft_strmapi
+
+`ft_strmapi` aplica una función f a cada carácter de la cadena s para crear una nueva cadena. La función f recibe dos parámetros: el índice del carácter actual en la cadena y el propio carácter. La nueva cadena, resultante de aplicar f a cada carácter, se devuelve al final.
+
+### Ejemplo Práctico
+
+Esta función es útil para transformar cadenas de texto aplicando una operación específica a cada carácter. Por ejemplo, podrías usar `ft_strmapi` para encriptar una cadena, transformar caracteres a mayúsculas o minúsculas en función de su posición, o cualquier otra operación que dependa tanto del carácter como de su posición en la cadena.
+
+Imagina que tienes la cadena "hello" y deseas crear una nueva cadena donde cada carácter sea convertido a mayúscula y desplazado en el alfabeto en función de su posición. Usando `ft_strmapi`, puedes aplicar una función que convierta "hello" en una cadena como "IGOMQ", dependiendo de la lógica definida en f. Este tipo de transformación es útil en contextos de manipulación de texto y encriptación.
+
+---
+
+## ft_striteri
+
+`ft_striteri` aplica una función f a cada carácter de la cadena s. La función f recibe dos parámetros: el índice del carácter actual en la cadena y un puntero al carácter. A diferencia de `ft_strmapi`, esta función modifica la cadena original en lugar de crear una nueva.
+
+### Ejemplo Práctico
+
+Esta función es útil cuando necesitas modificar cada carácter de una cadena en su lugar, basándote en su posición. Por ejemplo, podrías usar `ft_striteri` para cambiar caracteres a mayúsculas si su posición es par o a minúsculas si su posición es impar.
+
+Imagina que tienes la cadena "HeLLo WoRLd" y deseas alternar la capitalización de los caracteres en función de su posición. Usando `ft_striteri`, puedes aplicar una función que transforme "HeLLo WoRLd" en "HeLlO wOrLd". Este tipo de transformación es útil para tareas de procesamiento y manipulación de texto.
+
+---
+
+## ft_putchar_fd
+
+`ft_putchar_fd` escribe un carácter c en el descriptor de archivo fd. Este descriptor puede ser un archivo, una salida estándar como la consola, o incluso una redirección a un archivo o dispositivo.
+
+### Ejemplo Práctico
+
+Esta función es útil cuando necesitas imprimir un carácter específico a una salida determinada, como un archivo o la consola. Por ejemplo, podrías usar `ft_putchar_fd` para imprimir caracteres a un archivo de registro o a la salida de errores estándar.
+
+Imagina que estás implementando una función de registro y necesitas escribir mensajes a un archivo de log. Usando `ft_putchar_fd`, puedes enviar caracteres al archivo de log, asegurando que cada mensaje se escribe correctamente a la ubicación deseada. Este tipo de funcionalidad es fundamental para el manejo preciso y controlado de la salida en aplicaciones avanzadas.
+
+---
+
+## ft_putstr_fd
+
+`ft_putstr_fd` escribe una cadena de caracteres en un descriptor de archivo especificado. Si la cadena es nula, no realiza ninguna acción.
+
+### Ejemplo Práctico
+
+Este método es útil para enviar texto a archivos o a la salida estándar. Por ejemplo, podrías usar `ft_putstr_fd` para imprimir mensajes en la consola o para guardar información en un archivo de registro.
+
+Si tienes un archivo llamado "log.txt" y quieres registrar el mensaje "Inicio del proceso" en él, abrirías el archivo con el descriptor adecuado y llamarías a ft_putstr_fd("Inicio del proceso", fd), donde fd es el descriptor del archivo. Esto resultará en la escritura de "Inicio del proceso" en "log.txt".
+
+---
+
+## ft_putendl_fd
+
+`ft_putendl_fd` escribe una cadena de caracteres en un descriptor de archivo especificado, seguida de una nueva línea. Si la cadena es nula, no realiza ninguna acción.
+
+### Ejemplo Práctico
+
+Este método es útil para imprimir mensajes en la consola o en archivos de log, asegurando que cada mensaje se termine con una nueva línea. Por ejemplo, si quieres registrar el mensaje "Error encontrado" en un archivo de log, y deseas que cada entrada esté en una línea separada, usarías ft_putendl_fd("Error encontrado", fd), donde fd es el descriptor del archivo. Esto resultará en la escritura de "Error encontrado\n" en el archivo, asegurando que el mensaje esté seguido de una nueva línea.
+
+---
+
+## ft_putnbr_fd
+
+`ft_putnbr_fd` escribe un número entero en un descriptor de archivo especificado. Si el número es negativo, se imprime el signo menos antes del número, y si el número es el valor mínimo para un entero de 32 bits, se maneja como un caso especial para evitar errores.
+
+### Ejemplo Práctico
+
+Este método es útil para imprimir valores numéricos en archivos de registro o en la salida estándar, como la consola. Por ejemplo, si deseas registrar el número 12345 en un archivo de log, usarías ft_putnbr_fd(12345, fd), donde fd es el descriptor del archivo. Esto resultará en la escritura de "12345" en el archivo. Si quieres imprimir el número -789 en el archivo, usarías ft_putnbr_fd(-789, fd), que imprimirá "-789".
 
