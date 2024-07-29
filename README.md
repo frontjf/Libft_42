@@ -202,6 +202,16 @@ La función `strnstr` busca la primera aparición de una subcadena en una cadena
 
 ---
 
+## ft_atoi
+
+La función `ft_atoi` convierte una cadena de caracteres que representa un número en un entero. La función ignora espacios iniciales, maneja signos y convierte los dígitos consecutivos en un valor entero.
+
+### Ejemplo Práctico
+
+Puedes usar `ft_atoi` para convertir cadenas de texto que contienen números a valores enteros, lo cual es útil cuando lees datos numéricos de archivos o entradas de usuario.
+
+---
+
 ## ft_calloc
 
 La función `calloc` asigna memoria para un array de elementos e inicializa todos sus bytes a cero.
