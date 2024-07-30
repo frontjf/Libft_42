@@ -47,7 +47,7 @@ static void	fill_str(char *str, long num, int len)
 char	*ft_itoa(int n)
 {
 	char	*str;
-	int	len;
+	int		len;
 	long	num;
 
 	num = n;
