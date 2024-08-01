@@ -11,6 +11,8 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 static int	num_len(int n)
 {
@@ -58,3 +60,21 @@ char	*ft_itoa(int n)
 	fill_str(str, num, len);
 	return (str);
 }
+
+/*
+int	main(void)
+{
+	int		num;
+	char	*str;
+
+	num = 42;
+	str = ft_itoa(num);
+	if (str == NULL)
+		return (1);
+	printf("Number: %d\n", num);
+	printf("String: %s\n", str);
+	free(str);
+
+	return (0);
+}
+*/

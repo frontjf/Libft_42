@@ -6,11 +6,13 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:37:22 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/07/19 15:33:37 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/01 12:27:25 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 static size_t	count_words(char const *s, char c)
 {
@@ -62,3 +64,25 @@ char	**ft_split(char const *s, char c)
 	split[i] = NULL;
 	return (split);
 }
+
+/*
+int	main(void)
+{
+	char	**result;
+	size_t	i;
+
+	result = ft_split("Hello world, this is a test.", ' ');
+	if (result)
+	{
+		i = 0;
+		while (result[i])
+		{
+			printf("Word %zu: %s\n", i, result[i]);
+			free(result[i]);
+			i++;
+		}
+		free(result);
+	}
+	return (0);
+}
+*/

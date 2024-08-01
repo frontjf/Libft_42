@@ -6,11 +6,13 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:33:53 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/07/19 15:35:47 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:33:52 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
@@ -37,3 +39,20 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = '\0';
 	return (sub);
 }
+
+/*
+int    main(void)
+{
+    const char *str = "hello world";
+    unsigned int start = 6;
+    size_t len = 5;
+
+    char *result = ft_substr(str, start, len);
+    if (result)
+    {
+        printf("%s\n", result);
+        free(result); // Liberar la memoria asignada
+    }
+    return (0);
+}
+*/
