@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 13:41:53 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 12:20:24 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 15:17:54 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,16 +35,12 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	return (dst);
 }
 /*
-int	main(void)
+int main(void)
 {
-	char	str[] = "1234567890";
-	char	*result;
-
-	printf("Original: %s\n", str);
-	result = ft_memmove(str + 4, str, 6); // Solapamiento de memoria
-	printf("After memmove: %s\n", str);
-	printf("Result Pointer: %s\n", result);
-
-	return (0);
+	    char buffer[50] = "Hello, World!";
+	    
+	    ft_memmove(buffer + 7, buffer, 6);
+	    printf("Result: %s\n", buffer);
+	    return (0);
 }
 */

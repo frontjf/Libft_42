@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/13 18:37:26 by jordfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 12:25:58 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 13:29:19 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,6 @@ int	main(void)
 	result = ft_memset(str, 'A', 5);
 	printf("After memset:  \"%s\"\n", str);
 	printf("Result pointer: \"%s\"\n", result);
-
 	return (0);
 }
 */

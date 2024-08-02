@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:40:58 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/07/30 13:23:39 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 13:30:34 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ int	main(void)
 	ft_putstr_fd("Hello, World!\n", STDOUT_FILENO);
 	ft_putstr_fd("42 is great!\n", STDOUT_FILENO);
 	ft_putstr_fd("Testing ft_putstr_fd.\n", STDOUT_FILENO);
-
 	return (0);
 }
 */

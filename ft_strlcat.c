@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 14:29:03 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 12:45:15 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 15:22:00 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,14 +37,14 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 /*
 int	main(void)
 {
-	char	dst[20] = "Hello";
-	char	src[] = " World!";
-	size_t	dstsize = sizeof(dst);
+	char	dst[50] = "Hello, ";
+	const char	*src = "world!";
+	size_t	dstsize = 5;
+	size_t	result;
 
-	printf("Before strlcat: %s\n", dst);
-	ft_strlcat(dst, src, dstsize);
-	printf("After strlcat: %s\n", dst);
-
+	result = ft_strlcat(dst, src, dstsize);
+	printf("Result length: %zu\n", result);
+	printf("Destination string: %s\n", dst);
 	return (0);
 }
 */

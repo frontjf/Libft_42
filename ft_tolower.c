@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 15:22:43 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/07/30 13:29:47 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 15:28:58 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ int	main(void)
 	printf("ft_tolower('a') = %c\n", ft_tolower('a'));
 	printf("ft_tolower('z') = %c\n", ft_tolower('z'));
 	printf("ft_tolower('1') = %c\n", ft_tolower('1'));
-
 	return (0);
 }
 */

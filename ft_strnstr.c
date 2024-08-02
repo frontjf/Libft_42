@@ -29,25 +29,12 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-
 /*
-int	main(void)
+ int     main(int argc, char **argv)
 {
-	char big_string[] = "Hello, world!";
-	char sub_string1[] = "world";
-	char sub_string2[] = "planet";
-
-	char *result;
-
-	result = ft_strnstr(big_string, sub_string1, 13);
-	printf("ft_strnstr(\"%s\", \"%s\", 13) = %s\n", big_string, sub_string1, result ? result : "NULL");
-
-	result = ft_strnstr(big_string, sub_string2, 13);
-	printf("ft_strnstr(\"%s\", \"%s\", 13) = %s\n", big_string, sub_string2, result ? result : "NULL");
-
-	result = ft_strnstr(big_string, sub_string1, 5);
-	printf("ft_strnstr(\"%s\", \"%s\", 5) = %s\n", big_string, sub_string1, result ? result : "NULL");
-
-	return (0);
+        if (argc == 3)
+        {
+                printf("%s", ft_strnstr(argv[1], argv[2], strlen(argv[1])));
+        }
 }
 */

@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:40:20 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/07/30 13:18:23 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 13:29:32 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,6 @@ int	main(void)
 	ft_putchar_fd('1', STDOUT_FILENO);
 	ft_putchar_fd('\n', STDOUT_FILENO);
 	ft_putchar_fd('!', STDOUT_FILENO);
-
 	return (0);
 }
 */

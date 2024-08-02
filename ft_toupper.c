@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 14:32:26 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 13:34:03 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 15:29:05 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ int	main(void)
 	printf("ft_toupper('A') = %c\n", ft_toupper('A'));
 	printf("ft_toupper('Z') = %c\n", ft_toupper('Z'));
 	printf("ft_toupper('1') = %c\n", ft_toupper('1'));
-
 	return (0);
 }
 */

@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:39:15 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 12:38:10 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 15:20:55 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,11 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 }
 
 /*
-static void to_uppercase(unsigned int index, char *c)
+static void	to_uppercase(unsigned int _index, char *c)
 {
-    if (*c >= 'a' && *c <= 'z')
-        *c -= 32; // Convierte a mayúscula
+	(void)_index;
+	if (*c >= 'a' && *c <= 'z')
+		*c -= 32;
 }
 
 int	main(void)
@@ -40,7 +41,6 @@ int	main(void)
 
 	ft_striteri(str, to_uppercase);
 	printf("Modified string: %s\n", str);
-
 	return (0);
 }
 */

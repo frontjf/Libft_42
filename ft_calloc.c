@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:31:46 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 12:08:35 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 13:15:53 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,6 @@ int	main(void)
 		printf("Memory allocation failed\n");
 		return (1);
 	}
-
 	printf("Array elements after ft_calloc: ");
 	i = 0;
 	while (i < count)
@@ -48,7 +47,6 @@ int	main(void)
 		i++;
 	}
 	printf("\n");
-
 	free(array);
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 15:41:40 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 13:30:33 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 13:37:12 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,34 +37,17 @@ int	main(void)
 	str = "hello world";
 	result = ft_strrchr(str, 'o');
 	if (result)
-	{
-		printf("Found '%c' at position: %ld\n", 'o', result - str);
-	}
+		printf("Last 'o': %s\n", result);
 	else
-	{
 		printf("'o' not found\n");
-	}
-
 	result = ft_strrchr(str, 'z');
 	if (result)
-	{
-		printf("Found '%c' at position: %ld\n", 'z', result - str);
-	}
+		printf("'z' found: Yes\n");
 	else
-	{
-		printf("'z' not found\n");
-	}
-
+		printf("'z' found: No\n");
 	result = ft_strrchr(str, '\0');
 	if (result)
-	{
-		printf("Found null terminator at position: %ld\n", result - str);
-	}
-	else
-	{
-		printf("Null terminator not found\n");
-	}
-
+		printf("Null terminator at: %s\n", result);
 	return (0);
 }
 */

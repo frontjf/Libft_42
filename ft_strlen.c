@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/11 17:08:33 by jordfer2          #+#    #+#             */
-/*   Updated: 2024/07/30 13:28:19 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 15:23:22 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,10 @@ size_t	ft_strlen(const char *c)
 int	main(void)
 {
 	printf("Length of 'Hello, World!' = %zu\n", ft_strlen("Hello, World!"));
-	printf("Length of '42 is great!' = %zu\n", ft_strlen("42 is great!"));
+	printf("Length of '42 is great!' = %zu\n", ft_strlen("42 is horrible!"));
 	printf("Length of '' = %zu\n", ft_strlen(""));
 	printf("Length of 'A' = %zu\n", ft_strlen("A"));
 	printf("Length of 'Libft' = %zu\n", ft_strlen("Libft"));
-
 	return (0);
 }
 */

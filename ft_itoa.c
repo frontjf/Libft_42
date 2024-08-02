@@ -74,7 +74,6 @@ int	main(void)
 	printf("Number: %d\n", num);
 	printf("String: %s\n", str);
 	free(str);
-
 	return (0);
 }
 */

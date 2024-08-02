@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 19:38:37 by jordfer2          #+#    #+#             */
-/*   Updated: 2024/07/30 13:06:46 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 13:18:11 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ int	main(void)
 	printf("ft_isdigit('9') = %d\n", ft_isdigit('9'));
 	printf("ft_isdigit('a') = %d\n", ft_isdigit('a'));
 	printf("ft_isdigit('@') = %d\n", ft_isdigit('@'));
-
 	return (0);
 }
 */

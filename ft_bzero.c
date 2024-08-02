@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/13 18:51:30 by jordfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 12:07:00 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 13:14:34 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,10 +35,8 @@ int	main(void)
 
 	strcpy(buffer, "HelloWorld");
 	printf("Before ft_bzero: %s\n", buffer);
-
-	ft_bzero(buffer + 5, 6); // Nullify "World"
+	ft_bzero(buffer + 5, 6);
 	printf("After ft_bzero: %s\n", buffer);
-
 	return (0);
 }
 */

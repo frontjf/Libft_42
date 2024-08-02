@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:36:18 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 13:32:52 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 15:28:22 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,11 +40,12 @@ char	*ft_strtrim(char const *s1, char const *set)
 }
 
 /*
-int    main(void)
+int	main(void)
 {
-    const char *str = "hello world";
-    int         ch = 'o';
+	const char	*str = "hello world";
+	int	ch;
 
-    printf("%s\n", ft_strrchr(str, ch));
+	ch = 'o';
+	printf("%s\n", ft_strrchr(str, ch));
 }
 */

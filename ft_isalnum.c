@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 19:52:00 by jordfer2          #+#    #+#             */
-/*   Updated: 2024/07/30 12:59:07 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 13:16:41 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,14 +21,12 @@ int	ft_isalnum(int c)
 }
 
 /*
-int	main(void)
+int	main(int argc, char **argv)
 {
-	
-	printf("ft_isalnum('A') = %d\n", ft_isalnum('A'));
-	printf("ft_isalnum('z') = %d\n", ft_isalnum('z'));
-	printf("ft_isalnum('9') = %d\n", ft_isalnum('9'));
-	printf("ft_isalnum(' ') = %d\n", ft_isalnum(' '));
-	printf("ft_isalnum('#') = %d\n", ft_isalnum('#'));
-
+	if (argc == 2)
+	{
+		printf("%i\n", ft_isalpha(atoi(argv[1])));
+	}
 	return (0);
-} */
+}
+*/

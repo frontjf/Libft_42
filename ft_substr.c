@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:33:53 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 13:33:52 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 15:28:48 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,18 +41,21 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 }
 
 /*
-int    main(void)
+int	main(void)
 {
-    const char *str = "hello world";
-    unsigned int start = 6;
-    size_t len = 5;
+	const char	*str = "hello world";
+	unsigned int		start;
+	size_t		len;
+	char		*result;
 
-    char *result = ft_substr(str, start, len);
-    if (result)
-    {
-        printf("%s\n", result);
-        free(result); // Liberar la memoria asignada
-    }
-    return (0);
+	start = 6;
+	len = 5;
+	result = ft_substr(str, start, len);
+	if (result)
+	{
+		printf("%s\n", result);
+		free(result);
+	}
+	return (0);
 }
 */

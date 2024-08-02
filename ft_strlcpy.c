@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 14:25:00 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 13:01:38 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 13:34:37 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,8 +38,9 @@ int	main(void)
 {
 	char	dst[20];
 	const char	*src = "Hello, World!";
-	size_t	dstsize = sizeof(dst);
+	size_t	dstsize;
 
+	dstsize = sizeof(dst);
 	memset(dst, 'x', sizeof(dst));
 	printf("Before strlcpy: %s\n", dst);
 	ft_strlcpy(dst, src, dstsize);

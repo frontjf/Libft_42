@@ -6,7 +6,7 @@
 /*   By: jordfer2 <<marvin@42.fr>>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/15 20:38:42 by jirdfer2          #+#    #+#             */
-/*   Updated: 2024/08/01 13:02:33 by jordfer2         ###   ########.fr       */
+/*   Updated: 2024/08/02 15:23:56 by jordfer2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,9 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 }
 
 /*
-char	increment_char(unsigned int index, char c)
+har	increment_char(unsigned int index, char c)
 {
+	(void)index;
 	return (c + 1);
 }
 
