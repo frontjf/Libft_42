@@ -1,3 +1,20 @@
+# Índice de Contenidos
+
+| [ft_isalpha](#ft_isalpha) | [ft_isdigit](#ft_isdigit) | [ft_isalnum](#ft_isalnum) |
+| [ft_isascii](#ft_isascii) | [ft_isprint](#ft_isprint) | [ft_strlen](#ft_strlen)   |
+| [ft_memset](#ft_memset)   | [ft_bzero](#ft_bzero)     | [ft_memcpy](#ft_memcpy)   |
+| [ft_memmove](#ft_memmove) | [ft_strlcpy](#ft_strlcpy) | [ft_strlcat](#ft_strlcat) |
+| [ft_toupper](#ft_toupper) | [ft_tolower](#ft_tolower) | [ft_strchr](#ft_strchr)   |
+| [ft_strrchr](#ft_strrchr) | [ft_strncmp](#ft_strncmp) | [ft_memchr](#ft_memchr)   |
+| [ft_memcmp](#ft_memcmp)   | [ft_strnstr](#ft_strnstr) | [ft_atoi](#ft_atoi)       |
+| [ft_calloc](#ft_calloc)   | [ft_strdup](#ft_strdup)   | [ft_substr](#ft_substr)   |
+| [ft_strjoin](#ft_strjoin) | [ft_strtrim](#ft_strtrim) | [ft_split](#ft_split)     |
+| [ft_itoa](#ft_itoa)       | [ft_strmapi](#ft_strmapi) | [ft_striteri](#ft_striteri) |
+| [ft_putchar_fd](#ft_putchar_fd) | [ft_putstr_fd](#ft_putstr_fd) | [ft_putendl_fd](#ft_putendl_fd) |
+| [ft_putnbr_fd](#ft_putnbr_fd) | [libft.h](#libfth) | [Makefile](#makefile) |
+
+---
+
 # Explicación de Funciones en C
 
 ---
@@ -353,4 +370,32 @@ Este método es útil para imprimir mensajes en la consola o en archivos de log,
 ### Ejemplo Práctico
 
 Este método es útil para imprimir valores numéricos en archivos de registro o en la salida estándar, como la consola. Por ejemplo, si deseas registrar el número 12345 en un archivo de log, usarías ft_putnbr_fd(12345, fd), donde fd es el descriptor del archivo. Esto resultará en la escritura de "12345" en el archivo. Si quieres imprimir el número -789 en el archivo, usarías ft_putnbr_fd(-789, fd), que imprimirá "-789".
+
+---
+
+## libft.h
+
+El archivo libft.h es un archivo de cabecera para la biblioteca personalizada libft, que contiene prototipos de funciones y macros necesarias para el proyecto. Este archivo define las funciones disponibles, tanto las implementaciones propias de funciones estándar de la biblioteca C (libc) como funciones adicionales creadas por el autor. Incluir este archivo en otros archivos de código fuente permite utilizar las funciones declaradas en libft.h sin necesidad de redefinirlas, asegurando la consistencia y facilitando el mantenimiento del código.
+
+---
+
+## Makefile
+
+Este archivo es un Makefile, utilizado para automatizar la compilación y gestión de proyectos en C, como la biblioteca libft. Proporciona un conjunto de reglas y comandos para construir el proyecto, limpiar archivos generados y recompilar si es necesario. Aquí está la explicación de sus componentes clave:
+
+    NAME: Define el nombre del archivo de salida, en este caso, la biblioteca estática libft.a.
+    CC y CFLAGS: Especifican el compilador a usar (cc) y las banderas de compilación (-Wall -Wextra -Werror), que activan varias advertencias y tratan todas las advertencias como errores.
+    SRC: Lista de archivos fuente (.c) que forman parte de la biblioteca.
+    OBJ: Lista de archivos objeto (.o) generados a partir de los archivos fuente.
+
+#### Las reglas principales:
+
+    all: Genera la biblioteca libft.a.
+    $(NAME): Compila los archivos objeto y crea la biblioteca estática.
+    %.o: %.c libft.h: Regla de patrón que indica cómo compilar archivos .c en .o.
+    clean: Elimina los archivos objeto generados.
+    fclean: Realiza la limpieza de clean y elimina el archivo de la biblioteca.
+    re: Limpia y recompila todo el proyecto.
+
+El archivo también define un objetivo bonus para archivos adicionales y .PHONY para declarar los nombres de los objetivos que no corresponden a archivos.
 
