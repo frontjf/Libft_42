@@ -1,4 +1,4 @@
-# Índice de Contenidos
+## Índice de Contenidos
 
 | [ft_isalpha](#ft_isalpha) | [ft_isdigit](#ft_isdigit) | [ft_isalnum](#ft_isalnum) |
 | [ft_isascii](#ft_isascii) | [ft_isprint](#ft_isprint) | [ft_strlen](#ft_strlen)   |
@@ -13,11 +13,9 @@
 | [ft_putchar_fd](#ft_putchar_fd) | [ft_putstr_fd](#ft_putstr_fd) | [ft_putendl_fd](#ft_putendl_fd) |
 | [ft_putnbr_fd](#ft_putnbr_fd) | [libft.h](#libfth) | [Makefile](#makefile) |
 
----
-
-# Explicación de Funciones en C
 
 ---
+
 
 ## ft_isalpha
 
