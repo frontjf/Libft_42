@@ -1,4 +1,3 @@
-## Índice de Contenidos
 
 [ft_isalpha](#ft_isalpha)   [ft_isdigit](#ft_isdigit)   [ft_isalnum](#ft_isalnum)
 [ft_isascii](#ft_isascii)   [ft_isprint](#ft_isprint)   [ft_strlen](#ft_strlen)
